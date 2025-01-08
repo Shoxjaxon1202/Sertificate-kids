@@ -8,12 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
     <link href="https://db.onlinewebfonts.com/c/0f626d19c2f28595c311ab432d9c342a?family=Mir-Medium" rel="stylesheet">
-    
+    <link href="https://db.onlinewebfonts.com/c/ccfdf10ba24124f7c35e43827aec5344?family=Noyh+R+W01+Medium" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/264c5fe1e7f999c40fda384857a1a5cf?family=Smarty+Pants+BTN" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/84acc232df4820bfcf4b9aa02859cc88?family=KG+Primary+Penmanship+2+W00+Rg" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/a045c4622f6425afcbb095636757b614?family=Longhand+W01+BoldLP" rel="stylesheet">
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Passion One', cursive;
+            /* font-family: 'Passion One', cursive; */
+            font-family: "Mir-Medium";
             height: 100vh;
             display: flex;
             align-items: center;
@@ -43,10 +47,13 @@
         #title {
             font-size: 5.5rem !important;
             color: #2E5E4E !important;
+            font-weight: 900;
         }
         #this{
             background-color: #2E5E4E !important;
             border-radius: 5px;
+            font-family: "Noyh R W01 Medium";
+            font-weight: 900;
         }
         #mun{
             font-family: "Mir-Medium";
@@ -55,6 +62,8 @@
 
         #text {
             width: 66%;
+            font-family: "KG Primary Penmanship 2 W00 Rg";
+            font-weight: 500 !important;
         }
 
         .cardbottom {
@@ -63,7 +72,7 @@
             justify-content: space-between;
             width: 80%;
             margin: auto;
-            margin-top: 80px;
+            margin-top: 30px;
         }
 
         .decor-img {
@@ -80,29 +89,37 @@
             max-width: 300px;
             height: auto;
         }
+        #Recognition{
+            font-weight: bold;
+            
+        }
+        #manhr{
+            width: 50%;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <div id="parent">
         <div id="child" class="rounded-5 container border p-5 shadow-lg text-center card">
             <div class="position-absolute top-0 start-0 m-3">
-                <img src="./images/rabbit.png" alt="decor" class="img-fluid decor-img">
+                <img src="./images/rabbit.png" alt="decor" class="img-fluid decor-img mt-5 ms-4">
             </div>
             <div class="position-absolute top-0 end-0 m-3">
-                <img src="./images/Qr.jpg" alt="decor" class="img-fluid decor-img">
+                <img src="./images/Qr.jpg" alt="decor" class="img-fluid decor-img mt-5 me-4">
             </div>
 
-            <h1 id="title" class="display-4">Certificate</h1>
-            <h2 class="text-warning fs-1 mb-4">of Graduation</h2>
-            <p id="this" class="m-auto p-1 text-light fw-normal bg-success w-25">This Award is Presented to</p>
-            <h1 id="mun" class="text-warning my-3 display-5 mb-0">Munzira Nuriddinova</h1>
-            <hr class="w-50 mt-0 m-auto mb-3 border border-2 border-dark" style="opacity: 0.8;">
-            <p class="fs-5">In Recognition of Successfully Completing the<br>Phonics Cue 2 Program</p>
-            <p id="text" class="fs-5 fw-light m-auto mt-4">For your hard work, enthusiasm, and remarkable growth throughout this program. Your curiosity, creativity, and joyful spirit have made this period truly special. Congratulations on your outstanding achievements!</p>
+            <h1 id="title" class="display-4 mt-0 mb-0 p-0">Certificate</h1>
+            <h2 style="font-weight: bolder;" class="text-warning fs-1 mb-4 mt-0">of Graduation</h2>
+            <p id="this" class="m-auto p-1 fs-5 text-light fw-normal bg-success w-25">This Award is Presented to</p>
+            <h1 id="mun" class="text-warning my-3 display-2 mt-4 mb-2">Munzira Nuriddinova</h1>
+            <hr id="manhr" class="mt-0 m-auto mb-3 border border-1 border-dark" style="opacity: 0.8;">
+            <p id="Recognition" class="fs-5">In Recognition of Successfully Completing the<br>Phonics Cue 2 Program</p>
+            <p id="text" class="fs-5 fw-light m-auto mt-2">For your hard work, enthusiasm, and remarkable growth throughout this program. Your curiosity, creativity, and joyful spirit have made this period truly special. Congratulations on your outstanding achievements!</p>
 
             <div class="cardbottom">
                 <div class="col text-center mt-5 ms-4">
-                    <p style="font-family: 'Playwrite AU SA', sans-serif;" class="mb-0 fw-light fs-2 fst-italic">Ms. Iroda</p>
+                    <p style=" font-family: Longhand W01 BoldLP;" class="mb-0 fw-light  display-5">Ms. Iroda</p>
                     <hr style="opacity: 0.8;" class="m-0 w-50 mx-auto">
                     <small class="fs-5">Mentor</small>
                 </div>
@@ -114,7 +131,7 @@
                     <img src="./images/davronakaImzo.png" alt="imzo" class="img-fluid signature-img">
                     <hr style="opacity: 0.8;" class="m-0 w-50 mx-auto">
                     <small class="fs-5">Director</small>
-                    <img src="./images/pechat.png" alt="imzo" style="width: 180px;" class="img-fluid position-absolute bottom-0 start-50 stamp-img">
+                    <img src="./images/pechat.png" alt="imzo" style="width: 150px;" class="img-fluid position-absolute bottom-0 start-50 stamp-img">
                 </div>
             </div>
             <div class="position-absolute bottom-0 mb-5 start-0 m-3">
